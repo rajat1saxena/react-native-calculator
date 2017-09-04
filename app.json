@@ -1,0 +1,8 @@
+{
+  "expo": {
+    "name": "Calculator",
+    "sdkVersion": "20.0.0",
+    "privacy": "public",
+    "orientation": "portrait"
+  }
+}
