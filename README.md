@@ -1,3 +1,9 @@
+This is a minimal calculator app, built in a day, with Expo.io and React Native. Try it out [here](https://expo.io/@rajat1saxena/react-native-calculator).
+
+## Screenshot
+![Android Screenshot](./screenshot_android.png)
+
+## Original Readme
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
