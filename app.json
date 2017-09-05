@@ -1,8 +1,20 @@
 {
   "expo": {
     "name": "Calculator",
+    "version": "1.0.0",
     "sdkVersion": "20.0.0",
+    "icon": "./assets/images/icon.png",
+    "slug": "react-native-calculator",
     "privacy": "public",
-    "orientation": "portrait"
+    "orientation": "portrait",
+    "loading": {
+      "icon": "./assets/images/icon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.raynstudios.reactcalculator"
+    },
+    "android": {
+      "package": "com.raynstudios.reactcalculator"
+    }
   }
 }

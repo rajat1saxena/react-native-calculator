@@ -46,10 +46,11 @@ export default class NumPad extends React.Component {
         </View>
         <ScrollView horizontal={true}>
           <Key op={true} symbol={'DEL'} echoSymbol={this._echoSymbol}/>
+          <Key op={true} symbol={'/'} echoSymbol={this._echoSymbol}/>
           <Key op={true} symbol={'+'} echoSymbol={this._echoSymbol}/>
           <Key op={true} symbol={'-'} echoSymbol={this._echoSymbol}/>
           <Key op={true} symbol={'*'} echoSymbol={this._echoSymbol}/>
-          <Key op={true} symbol={'/'} echoSymbol={this._echoSymbol}/>
+          <Key op={true} symbol={'^'} echoSymbol={this._echoSymbol}/>
           <Key op={true} symbol={'('} echoSymbol={this._echoSymbol}/>
           <Key op={true} symbol={')'} echoSymbol={this._echoSymbol}/>
           <Key op={true} symbol={'sin'} echoSymbol={this._echoSymbol}/>
