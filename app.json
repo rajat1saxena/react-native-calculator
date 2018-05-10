@@ -2,7 +2,7 @@
   "expo": {
     "name": "Calculator",
     "version": "1.0.0",
-    "sdkVersion": "20.0.0",
+    "sdkVersion": "27.0.0",
     "icon": "./assets/images/icon.png",
     "slug": "react-native-calculator",
     "privacy": "public",

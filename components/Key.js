@@ -22,7 +22,7 @@ export default class Key extends React.Component {
         style={this.props.op ? [styles.key, styles.opkey] : styles.key}
         onPress={this._onPress}>
         <View>
-          <Text style={this.props.op && styles.opkeytext}>
+          <Text style={[styles.keytext, this.props.op && styles.opkeytext]}>
             {this.props.symbol}
           </Text>
         </View>
@@ -40,6 +40,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     width: 60,
     height: 60,
+  },
+  keytext: {
+    fontSize: 20
   },
   opkey: {
     backgroundColor: '#4f9a94',
